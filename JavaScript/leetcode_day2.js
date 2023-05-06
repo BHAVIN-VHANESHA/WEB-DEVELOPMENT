@@ -6,10 +6,10 @@
 
 //solution
 function makeCounter(n) {
-    let count = n;
-    return function() {
-      const result = count;
-      count += 1;
-      return result;
-    };
-  } 
+  let count = n;
+  return function() {
+    const result = count;
+    count += 1;
+    return result;
+  };
+} 
