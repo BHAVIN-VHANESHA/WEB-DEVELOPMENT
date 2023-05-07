@@ -7,6 +7,7 @@ console.log(isNaN(number))
 var name = "bhavin";
 console.log(isNaN(name));
 
+console.log(typeof(isNaN));
 
 console.log(NaN === NaN);
 console.log(Number.NaN === NaN);
