@@ -28,3 +28,19 @@ var add = function(a,b){
     return a+b;
 }
 console.log(add(5,5));
+
+
+
+
+
+//fat arrow function
+//while using this function do not call the function 
+//before its define. call after the body
+const sum = () => {
+    //let a = 5; b = 6;
+    //return a+b;
+    //return `${a+b}`;
+// if there is code of one line no need toc write return
+    `${a+b}`;
+}
+console.log(sum());
