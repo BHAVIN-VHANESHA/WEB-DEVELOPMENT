@@ -15,4 +15,4 @@ console.log(typeof(m));//output is object
 //null becoz declared after assigning null
 var m;
 console.log(m);
-console.log(typeof(m));//output is object
+console.log(typeof(m));//output is objectz
