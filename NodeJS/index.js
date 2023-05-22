@@ -14,6 +14,18 @@ app.get('/', (req,res) => {
 app.get('/p', (req,res) => {
     res.send('hi i am bahvin')
 })
+app.get('/about', (req,res) => {
+    res.send('i am a programmer')
+})
+app.get('/home', (req,res) => {
+    res.send('i live in navsari')
+})
+app.get('/edu', (req,res) => {
+    res.send('i study at BVM in VVN, Anand')
+})
+app.get('/ambition', (req,res) => {
+    res.send('i want to become a trillonear business man')
+})
 app.listen(port, () => {
     console.log(`listening at http://localhost:${port}`);
 })
