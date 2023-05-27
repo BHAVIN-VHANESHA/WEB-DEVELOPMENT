@@ -11,13 +11,13 @@ function App() {
       {/* props are used to reuse the same code */}
       {/* <Navbar/> //defaultPropTypes */}
       
-      {/* <div className="container my-4">
+      <div className="container my-4">
       <Form heading="Text Manipulation" />
-      </div> */}
-
-      <div className="container my-3">
-        <About/>
       </div>
+
+      {/* <div className="container my-3">
+        <About/>
+      </div> */}
         
     </>
   );
