@@ -6,3 +6,4 @@ const os = require('os');
 //   console.log(os.release());//rerlease version
 //    console.log(os.totalmem());//total memory
 //    console.log(os.uptime());//system started from
+console.log(os.type());

@@ -26,5 +26,6 @@ app.get("/ambition", (req, res) => {
   res.send("i want to become a trillonear business man");
 });
 app.listen(port, () => {
-  console.log(`listening at http://localhost:${port}`);
+  console.log(`listening at http://localhost:${port}/v2`);
 });
+ 
